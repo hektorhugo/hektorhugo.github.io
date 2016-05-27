@@ -1,0 +1,81 @@
+@import '../css/grid.css';
+@import '../css/font-awesome.css';
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300italic);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic);
+@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
+/****Map****/
+.google-map-api {
+  padding-top: 98px;
+}
+#map-canvas {
+  height: 429px;
+}
+#map-canvas img {
+  max-width: none !important;
+}
+.social-icons {
+  padding-top: 96px;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+}
+.social-icons .fa {
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 52px;
+  width: 50px;
+  height: 50px;
+  border-radius: 500px;
+  background-color: #287e7d;
+  display: inline-block;
+}
+.social-icons .fa + .fa {
+  margin-left: 17px;
+}
+.social-icons .fa:hover {
+  background-color: #343a5e;
+}
+/**Footer**/
+#footer {
+  padding: 39px 0 54px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+#toTop {
+  background-color: #656262;
+  background-color: rgba(101, 98, 98, 0.65);
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 40px;
+  left: 51%;
+  margin-left: 640px;
+  overflow: hidden;
+  border: none;
+  color: #ffffff;
+  width: 71px;
+  height: 71px;
+  font-size: 10px;
+  line-height: 65px;
+  text-align: center;
+  z-index: 20;
+  border-radius: 500px;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+#toTop:hover {
+  outline: none;
+  background-color: #000000;
+}
